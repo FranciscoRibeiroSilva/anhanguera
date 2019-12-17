@@ -64,7 +64,7 @@ app.use(bodyParser.json())
 
 
 //css 
-app.use(express.static(path.join(__dirname, "/Public")));
+app.use(express.static(path.join(__dirname, "/public")));
 
 //Rotas
 //Rota principal
