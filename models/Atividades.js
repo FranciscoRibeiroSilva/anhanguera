@@ -51,6 +51,6 @@ const Atividades = db.sequelize.define('atividades', {
     }
 })
 
-Atividades.sync({force: true})
+//Atividades.sync({force: true})
 
 module.exports = Atividades

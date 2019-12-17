@@ -12,6 +12,6 @@ const Ministrantes = db.sequelize.define('ministrantes', {
     }
 })
 
-Ministrantes.sync({force: true})
+//Ministrantes.sync({force: true})
 
 module.exports = Ministrantes

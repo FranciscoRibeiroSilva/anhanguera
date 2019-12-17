@@ -16,6 +16,6 @@ const Administrador = db.sequelize.define('administradores', {
     
 })
 
-Administrador.sync({force: true})
+//Administrador.sync({force: true})
 
 module.exports = Administrador
