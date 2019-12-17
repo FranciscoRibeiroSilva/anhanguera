@@ -1,0 +1,32 @@
+<div class="mt-5">
+
+    <div class="formatacao">
+        <center>
+            {{>_logo20px}}
+        </center>
+
+        <form action="/anhangueraeventos/verificaLogin" method="POST" class="form-grup">
+
+            <div>
+                <div>
+                    <label for="e-mail">E-mail:</label><br>
+                    <input class="form-control" type="text" name="email" id="e-mail" placeholder="Digite seu e-mail">
+                </div>
+                <div>
+                    <label for="senha">Senha:</label><br>
+                    <input class="form-control" type="password" name="senha" placeholder="Digite sua senha">
+                </div>
+            </div>
+
+            <center>
+                <div>
+                    <br>
+                    <button class="btn btn-outline-secondary "> Entrar </button>
+                    <br><br>
+                </div>
+                Não tem uma conta?<a href='/anhangueraeventos/cadastroAdm'> Cadastre-se </a>
+            </center>
+        </form>
+    </div>
+
+</div>
