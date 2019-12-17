@@ -33,6 +33,6 @@ const Eventos = db.sequelize.define('eventos', {
     }
 })
 
-//Eventos.sync({force: true})
+Eventos.sync({force: true})
 
 module.exports = Eventos
